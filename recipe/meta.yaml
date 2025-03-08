@@ -1,13 +1,13 @@
 {% set name = "schemdraw" %}
-{% set version = "0.19" %}
+{% set version = "0.20" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/schemdraw-{{ version }}.tar.gz
-  sha256: f39183f3090e607c7dbc41ebd3dddf2ae0ef1c81dcbab6c6e2429599559bd7e3
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/schemdraw-{{ version }}.tar.gz
+  sha256: deaf028827cd1ab1a62c5d40cb70a0ed32ac1f4243ddd6ca86c616e4ac7a3672
 
 build:
   noarch: python
